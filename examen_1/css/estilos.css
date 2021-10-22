@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/*-----------------------------
+1. TIPOGRAFIA
+-------------------------------*/
+html {
+  font-size: 62.5%;
+  /* Normalizar para REMS */
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+/* Principales */
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+/*-----------------------------
+2. ESTILOS BOTONES
+-------------------------------*/
+.boton {
+  font-size: 1.8rem;
+  color: #F3A4C5;
+  background-color: #E31616;
+  padding: 1rem 3rem;
+  margin-top: 1.5rem;
+  border: black;
+  border-radius: 3rem;
+}
+
+/*-----------------------------
+3. ESTILOS COLOR PRINCIPAL
+-------------------------------*/
+.bg-primary {
+  background-color: #E31616 !important;
+}
+
+.text-primary {
+  color: #E31616 !important;
+}
+
+/*-----------------------------
+4. ESTILOS COLOR SECUNDARIO
+-------------------------------*/
+.bg-secondary {
+  background-color: #2C60A9 !important;
+}
+
+.text-secondary {
+  color: #2C60A9 !important;
+}
+
+.bg-success {
+  background-color: #F3A4C5 !important;
+}
+
+.text-success {
+  color: #F3A4C5 !important;
+}
+
+/*-----------------------------
+5. ESTILOS ENCABEZADO
+-------------------------------*/
+.redes-sociales li a i {
+  color: #F3A4C5;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  opacity: .5;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.redes-sociales li a i:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.5) rotate(360deg);
+          transform: scale(1.5) rotate(360deg);
+}
+
+/*-----------------------------
+5. ESTILOS MENÚ NAVEGACIÓN
+-------------------------------*/
+.navbar-nav li a {
+  font-size: 1.8rem;
+  color: #F3A4C5 !important;
+  padding-right: 3rem !important;
+  opacity: 1;
+}
+
+.navbar-nav li a:hover {
+  opacity: 0.5;
+}
+
+#datos-generales span {
+  font-size: 1.8rem;
+}
+
+.swiper-slide {
+  width: 40rem;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  background-color: #E31616;
+}
+
+/*=========================
+ 6. ANIMACIÓN anime.js 
+ ==========================*/
+#animacion {
+  height: 30rem;
+  background: #000000;
+  overflow: hidden;
+}
+
+.text-1 {
+  font-size: 5rem;
+  color: #F3A4C5;
+  -webkit-box-reflect: below -4rem linear-gradient(transparent, #E31616);
+}
+
+.text-1 span {
+  display: inline-block;
+}
+
+.text-2 {
+  font-size: 4rem;
+  color: #F3A4C5;
+  text-shadow: -0.1rem 0.4rem 0.2rem #2C60A9;
+}
+
+.text-2 span {
+  display: inline-block;
+}
+
+/*=========================
+ 7. ESTILOS SECCIONES
+ ==========================*/
+.card-body i {
+  text-shadow: -.2rem -.4rem .1rem black;
+}
+
+.razones {
+  border: none;
+}
+
+/*=========================
+ 8. ESTILOS SECCIÓN PRINCIPAL
+ ==========================*/
+.productos_c {
+  border: none;
+}
+
+.noticias {
+  background-color: #E31616;
+  height: 100rem;
+  width: 100rem;
+  margin-top: 30rem;
+}
+
+#pie a {
+  color: #F3A4C5;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+/*=========================
+ 9. @media QUERIES
+ ==========================*/
+@media only screen and (min-width: 768px) {
+  .text-1 {
+    font-size: 11rem;
+    -webkit-box-reflect: below -8.5rem linear-gradient(transparent, #E31616);
+  }
+  .text-2 {
+    font-size: 6rem;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
