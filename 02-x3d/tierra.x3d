@@ -1,0 +1,11 @@
+<x3d class="fondo">
+    <Scene>
+        <Shape>
+            <Appearance>
+                <imageTexture url='texturas/ctierra.jpg'/>
+            </Appearance>
+            <Sphere/>
+        </Shape>
+
+    </Scene>
+</x3d>

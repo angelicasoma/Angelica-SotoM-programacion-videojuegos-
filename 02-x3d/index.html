@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sol</title>
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script> 
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+        }
+        .fondo{
+            width: 100%;
+            height: 100%;
+            background: #000 url(texturas/espacio.jpg);
+        }
+    </style>
+</head>
+<body>
+    <x3d class="fondo">
+        <Scene>
+            <Shape>
+                <Appearance>
+                    <!-- <Material diffuseColor='1 1 0'/> -->
+                    <imageTexture url='texturas/csol.jpg'/>
+                </Appearance>
+                <!-- <Box></Box> -->
+                <!-- <Cone/> -->
+                <Sphere/>
+            </Shape>
+            
+            <!-- <Mercurio/> -->
+            <transform translation='1.5 0 1' scale='0.09 0.09 0.09'>
+                <inline url='mercurio.x3d'></inline>
+            </transform>
+
+            <!-- Venus -->
+            <transform translation='-2.3 0 0' scale='0.1 0.1 0.1'>
+                <inline url='venus.x3d'></inline>
+            </transform>
+
+             <!-- Tierra -->
+            <transform translation='3 0 3 ' scale='0.2 0.2 0.2'>
+                <inline url='tierra.x3d'></inline>
+            </transform>
+
+             <!-- Marte -->
+            <transform translation='-4 0 -4' scale='0.3 0.3 0.3'>
+                <inline url='marte.x3d'></inline>
+            </transform>
+
+             <!-- Jupiter -->
+             <transform translation='5 0 -1' scale='0.2 0.2 0.2'>
+                <inline url='jupiter.x3d'></inline>
+            </transform>
+
+              <!-- Saturno -->
+              <transform translation='6 0 -5' scale='0.2 0.2 0.2'>
+                <inline url='saturno.x3d'></inline>
+            </transform>
+
+            <!-- Urano -->
+            <transform translation='-7 0 6' scale='0.1 0.1 0.1'>
+                <inline url='urano.x3d'></inline>
+            </transform>
+
+            <!-- Neptuno -->
+            <transform translation='8 0 7' scale='0.1 0.1 0.1'>
+                <inline url='neptuno.x3d'></inline>
+            </transform>
+        </Scene>
+    </x3d>
+
+</body>
+</html>
