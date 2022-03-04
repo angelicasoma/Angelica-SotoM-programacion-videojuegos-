@@ -1,0 +1,16 @@
+<x3d class="fondo">
+    <Scene>
+        <Shape>
+            <Appearance>
+                <imageTexture url='texturas/cmarte.jpg'/>
+            </Appearance>
+            <Sphere/>
+        </Shape>
+
+<!-- Nave -->
+ <transform translation=" -2 0 0"> 
+    <inline url="space-shuttle-orbiter."></inline>
+ </transform>
+
+    </Scene>
+</x3d>
